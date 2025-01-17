@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e6e0ff;
+}
+
+header{
+    height: 13vw;
+    color: white;
+    background-color: #4f4a83;
+    padding: 2vw 10vw;
+    display: flex;
+    align-items: flex-start;
+}
+
+img{
+    height: 10vw;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.name{
+    height: 100%;
+    margin-left: 4vw;
+}
+
+header h1{
+    font-size: 3.5vw;
+}
+
+nav{
+    height: 4vw;
+    background-color: #7040c1;
+    padding: 1vw 10vw;
+}
+
+nav ul{
+    list-style-type: none;
+    height: 100%;
+}
+
+nav li{
+    display: inline-block;
+    align-content: center;
+    height: 100%;
+    margin-right: 1.5vw;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1vw;
+    font-size: 1.8vw;
+    border-radius: 3px 3px 0px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgb(160, 78, 188);
+}
+
+.body{
+    padding: 2vw 10vw;
+    /* background-color: #ECF0F1; */
+    color: #421c2f;
+    flex: 1;
+}
+
+.body p{
+    width: 70%;
+    font-size: 1.4vw;
+    text-align: justify;
+}
+
+.body h1, .body h2, .body h3, .body h4{
+    width: 70%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .contact-info, footer .social-links {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-links a {
+    display: inline-block;
+}
+
+.common
+{   
+    background-color: #dcc4fc;
+    border-radius: 1.6vh;
+    border: 1.5px solid rgb(94, 94, 94);
+    transition: all 0.2s ease-in-out;
+}
+
+.common:hover{
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.common .img img{
+    height: 20vw;
+}
+
+.description{
+    padding: 1vw;
+}
+
+.iot, .cs{
+    margin: 0;
+}
+
+.fc, .cs{
+    margin-top: 5vw;    
+}
+
+.net, .fc{
+    margin-right: 15vw;
+}
+
+.description{
+    font-size: 1.5vw;
+}
+
+.is .img img{
+    width: 33.6vw;
+}
+
+.os .img img{
+    width: 33.6vw;
+}
+
+.is{
+    margin-left: 6vw;
+}
+
+.os{
+    margin-left: 21vw;
+    margin-top: 5vw;
+}
+
+.card {
+    background: rgb(255, 251, 251);
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(201, 201, 201);
+    padding: 20px;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #37008f;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+.card ul ul {
+    margin-left: 20px;
+}
+
+.card ul ul li {
+    list-style-type: disc;
+}
